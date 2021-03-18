@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+// eslint-disable-next-line
 import Full_logo from "../images/LOGO/FULL_logo.png";
-// import WHITE_88 from "../images/LOGO/WHITE_88.png";
 import WHITE_88_ONLY from "../images/LOGO/WHITE_88_ONLY.png";
-import HORZ_88_FINAL from "../images/LOGO/HORZ_88_FINAL.png";
 const navlinkArray = [
     {
         title: "Home",
