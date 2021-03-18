@@ -1,0 +1,105 @@
+#about-us-title {
+    margin: 20px 5px 15px 5px ;
+}
+
+.about-us-inner-info {
+    margin: 0 5px 0 5px;
+}
+
+.about-us-info, .store-info {
+    text-align: justify;
+    margin: 10px;
+}
+
+#google-map {
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    
+}
+#about-us-container {
+    height: 100%;
+    background-image: url("../images/BL5K4509edited.jpg");
+    background-size: auto 100%;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.background-overlay {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: inherit;
+    background: #000000;
+    opacity: 0.6;
+    z-index: 1;
+}
+.overlay-top {
+    position: relative;
+    z-index: 3;
+    color: white;
+}
+@media only screen and (min-width: 901px) {
+    #about-us-container {
+        height: 100%;
+        background-image: url("../images/BL5K4509edited.jpg");
+        background-size: 100% auto;
+        opacity: 90%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 200px;
+    }
+    .background-overlay {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: inherit;
+        background: #000000;
+        opacity: 0.6;
+        z-index: 1;
+    }
+    .overlay-top {
+        position: relative;
+        z-index: 3;
+        color: white;
+    }
+    .about-us-info, #store-info-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us-inner-info {
+        line-height: 1.5em;
+        max-width: 30vw;
+        font-size: 1.3em;
+        padding-top: 60px;
+    }
+     /* #about-us-title, .about-us-inner-info, .store-inner-info, #google-map {
+        margin: 38px 20px 10px 10px;
+    }
+    */
+    #about-us-title, .about-us-inner-info {
+        margin-left: 80px;
+    } 
+    
+    .about-us-info, .store-info, #google-map {
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    .store-info {
+        font-size: 1.1em;
+    }
+    #about-us-title {
+        font-size: 3.5em;
+        padding-top: 20px;
+    }
+    #store-info-title {
+        font-size: 1.5em;
+        padding-top: 20px;
+    }
+}

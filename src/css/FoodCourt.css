@@ -1,0 +1,54 @@
+#food-court-title {
+    text-align: center;
+    margin: 20px 10px 0 10px;
+}
+/* .vendor-list-container {
+    display: flex;
+    flex-direction: column;
+} */
+.vendor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.vendor-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vendor-name {
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    min-height: 35px;
+    background: #3d9e55c7;
+    color: #ffffff;
+}
+.vendor-logo {
+    width: 80vw;
+    max-width: 400px;
+    height: auto;
+}
+.vendor-images {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social-link {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+@media only screen and (min-width: 901px) {
+    .vendor-content {
+        flex-direction: row nowrap;
+        justify-content: space-between;
+    }
+
+}
+
+

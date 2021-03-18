@@ -1,0 +1,103 @@
+@import "./css/Header.css";
+@import "./css/Footer.css";
+@import "./css/Home.css";
+@import "./css/AboutUs.css";
+@import "./css/StorePolicies.css";
+@import "./css/ContactUs.css";
+@import "./css/WeeklyAd.css";
+@import "./css/FoodCourt.css";
+
+/*Reset CSS Styles
+.page-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.2em;
+    margin-bottom: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-size:3em;
+    body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+/* Color Palette
+white: #ffffff;
+88-green: #3d9e56;
+grey: #a9a9a9;
+black: #000000;
+*/
+
+body, .main-content {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar, .main-content::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+ul, h1, h2, h3, h4, li, select, option {
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hide-for-mobile {
+    display: none;
+}
+
+.hide-toggle {
+    display: none;
+}
+
+.main-content {
+    top: 90px;
+    bottom: 60px;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    overflow-y: scroll;
+}
+.page-container {
+    height: 100%;
+}
+.page-title {
+    margin: 10px;
+
+}
+
+@media only screen and (min-width: 901px) {
+    .main-content {
+        margin: 0;
+        top: 110px;
+        flex-grow: 1;
+        position: relative;
+        padding-bottom: 50px;
+        overflow-y: scroll;
+        min-height: calc(100vh - 90px - 160px);
+    }
+    .page-container {
+        position: relative;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+}

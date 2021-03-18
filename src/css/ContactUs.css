@@ -1,0 +1,199 @@
+#contact-form-container {
+    width: 100%;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-form-input, #contact-form-button {
+    font-size: 1.1em;
+    min-height: 30px;
+}
+
+.contact-form-input {
+    margin-bottom: 20px;
+    max-width: 100vw;
+    margin: 10px 5px 10px 5px;
+    border: 1px solid #918282;
+    background: #fcfcfc;
+}
+
+.contact-reason {
+    font-size: 1em !important;
+    max-width: 100vw !important;
+    margin: 0;
+    padding: 0;
+}
+
+select option:focus {
+    font-size: 1em !important;
+    max-width: 100vw !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact-message {
+    font-size: 1.1em ;
+    min-height: 110px;
+    overflow-y: visible;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#contact-form-button {
+    max-width: 120px;
+    background: #3d9e56;
+    border: none;
+    color: #ffffff;
+    margin: 20px 5px auto 5px;
+}
+#reason-placeholder {
+    color: #e6e6e6;
+    font-size: 1.1em;
+    min-height: 30px;
+}
+#contact-us-container {
+    position: relative;
+    height: 100%;
+    background-image: url("../images//Jefferson_Square_Photos\ -\ AJ/BL5K4556edited.jpg");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+.background-overlay {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: inherit;
+    background: #000000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#contact-us-title, .ways-to-contact, #contact-form, .contact-form-input, #contact-form-button {
+    position: relative;
+    z-index: 5;
+}
+#contact-us-title, .ways-to-contact {
+    margin: 0 auto 0 auto;
+    padding: 10px 10px 30px 10px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 400px;
+}
+
+.ways-to-contact {
+    text-align: justify;
+}
+
+@media only screen and (min-width: 901px ) {
+    #contact-us-container {
+        position: relative;
+        height: 100%;
+        background-image: url("../images//Jefferson_Square_Photos\ -\ AJ/BL5K4556edited.jpg");
+        background-size: auto 100%;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        text-align: center;
+    }
+    .background-overlay {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: inherit;
+        background: #000000;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #contact-us-title, .ways-to-contact, #contact-form, .contact-form-input, #contact-form-button {
+        position: relative;
+        z-index: 5;
+    }
+    #contact-us-title, .ways-to-contact {
+        margin: 0 auto 0 auto;
+        padding: 10px 10px 30px 10px;
+        color: #ffffff;
+        text-align: center;
+        max-width: 400px;
+    }
+    #contact-form {
+        align-items: center;
+        min-width: 600px;
+    }
+    .contact-form-input {
+        min-width: 500px ;
+        max-width: 550px;
+    }
+    #contact-form-button {
+        width: 110px;
+        height: 40px;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+}
+/* 
+.ways-to-contact {
+    text-align: center;
+    padding: 0;
+} */
+/*
+#contact-us-container {
+    background-image: url("../images/BL5K4592edited.jpg");
+}
+
+*/
+/* #form-section-container {
+    width: 80vw;
+    margin: 1.5em auto;
+    padding: 1.2em;
+    box-shadow: -5px 5px 10px #a9a9a9;
+    border-radius: 2%;
+    background-color: #ffffff;
+    background: #a9a9a9;
+    
+} */
+/* 
+#contact-form {
+    display: flex;
+    flex-direction: column; /*stacks content column*/
+    /* justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+} */
+
+/* #contact-form p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact-form-input option:first-child{
+    color: #a4a4a4;
+  }
+  
+.contact-form-input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.2em;
+    width: 80%;
+    height: 2em;
+} */
+
+/* #contact-message {
+    height: 4em;
+} */
+/* #contact-form-button {
+    background-color: #3d9e56;
+    /* font-size: 1.3em; 
+    width: 40%;
+    max-width: 100px;
+    height: auto;
+    margin: auto;
+    border: none;
+    border-radius: 2%;
+} */

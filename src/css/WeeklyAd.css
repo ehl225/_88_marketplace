@@ -1,0 +1,26 @@
+
+.weekly-ad {
+    max-width: 95vw;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+#weekly-ad-title, #weekly-ad-subtitle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 901px) {
+    #weekly-ad-title {
+        margin: 30px 0 30px 0;
+        padding: 20px;
+        color: #ffffff;
+        background: #3d9e55c7;
+        background: #3d9e56;
+    }
+    .weekly-ad {
+        max-width: 70vw;
+        margin-left: auto;
+    }
+}

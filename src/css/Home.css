@@ -1,0 +1,33 @@
+#home-container {   
+    bottom: 60px;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.home-weekly-ad {
+    width: 100%;
+    height: 150px;
+    background: url("../images/snacks.jpg");
+    background-size: cover;
+}
+.home-weekly-ad-inner p {
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.6em;
+    padding-top: 120px;
+}
+
+.home-weekly-ad-inner p span {
+    width: 100%;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.covid-procedures {
+    /* background: url("../images/MARKETING_GRAPHICS/PNG/[02] FLAG.png");
+    background-size: cover; */
+    background-color: #a9a9a9;
+    color: #ffffff;
+    padding: 5px;
+}
