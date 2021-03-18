@@ -1,6 +1,6 @@
 #about-us-container {
     height: 100%;
-    background-image: url("../images/BL5K4509edited.jpg");
+    background: url("../images/BL5K4509edited.jpg");
     background-size: auto 100%;
     opacity: 90%;
     display: flex;
@@ -36,14 +36,13 @@
     text-align: justify;
     margin: 10px;
 }
-
+/*
 #google-map {
     margin: 15px;
     padding: 5px;
     text-align: center;
-    
 }
-
+*/
 @media only screen and (min-width: 901px) {
     #about-us-container {
         height: 100%;
@@ -89,7 +88,7 @@
         margin-left: 80px;
     } 
     
-    .about-us-info, .store-info, #google-map {
+    .about-us-info, .store-info, {
         text-align: left;
         margin-left: 35px;
     }
