@@ -7,27 +7,33 @@ import HORZ_88_FINAL from "../images/LOGO/HORZ_88_FINAL.png";
 const navlinkArray = [
     {
         title: "Home",
-        path: "/"
+        path: "/",
+        exact: true
     },  
     {
         title: "About Us",
-        path: "/about-us"
+        path: "/about-us",
+        exact: false
     },
     {
         title: "Store Policies",
-        path: "/store-policies"
+        path: "/store-policies",
+        exact: false
     },
     {
         title: "Weekly Ad",
-        path: "/weekly-ad"
+        path: "/weekly-ad",
+        exact: false
     },
     {
         title: "Food Court",
-        path: "/food-court"
+        path: "/food-court",
+        exact: false
     },
     {
         title: "Contact Us",
-        path: "/contact-us"
+        path: "/contact-us",
+        exact: false
     }
 
 ]
@@ -111,7 +117,7 @@ class Header extends React.Component {
 
     render() {
         const navlinks = navlinkArray.map((navlink, index) => {
-            return <NavLink key={index} className="nav-path" to={navlink.path} onClick={this.handleToggle}>{navlink.title}</NavLink>
+            return <NavLink key={index} className="nav-path" exact={navlink.exact} to={navlink.path} onClick={this.handleToggle}>{navlink.title}</NavLink>
         })
         return (
             <header >
