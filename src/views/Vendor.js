@@ -1,8 +1,8 @@
 import React from 'react';
 // import instagram_logo from '../images/';
 // import facebook_logo from '../images/';
-import fbLogo from '../images/fb-logo-1.png';
-import igLogo from '../images/ig-logo-4.jpg';
+// import fbLogo from '../images/fb-logo-1.png';
+// import igLogo from '../images/ig-logo-4.jpg';
 
 export default class Vendor extends React.Component {
 
