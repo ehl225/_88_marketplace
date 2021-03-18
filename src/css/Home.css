@@ -3,6 +3,7 @@
     height: 150px;
     background: url("../images/snacks.jpg");
     background-size: cover;
+    margin: 0;
 }
 .home-weekly-ad-inner {
     text-decoration: none;
@@ -32,4 +33,11 @@
     .home-weekly-ad {
         height: 250px;
     }
+    
+    .home-weekly-ad-inner p {
+    font-size: 1.8rem;
+    text-align: justify;
+    padding-top: 220px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
 }
