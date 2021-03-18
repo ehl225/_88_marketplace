@@ -47,8 +47,9 @@
 @media only screen and (min-width: 901px) {
     #about-us-container {
         height: 100%;
- //     background-image: url("../images/BL5K4509edited.jpg");
- //     background-size: 100% auto;
+ /*     background-image: url("../images/BL5K4509edited.jpg");
+        background-size: 100% auto;
+  */
         opacity: 90%;
         display: flex;
         flex-direction: row;
