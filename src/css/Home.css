@@ -12,6 +12,11 @@
     background: url("../images/snacks.jpg");
     background-size: cover;
 }
+.home-weekly-ad-inner {
+    text-decoration: none;
+    width: 100%;
+}
+
 .home-weekly-ad-inner p {
     width: 100%;
     color: #ffffff;
