@@ -15,7 +15,6 @@
 .home-weekly-ad-inner p {
     width: 100%;
     color: #ffffff;
-    font-size: 1.6em;
     padding-top: 120px;
 }
 
@@ -30,4 +29,10 @@
     background-color: #a9a9a9;
     color: #ffffff;
     padding: 5px;
+}
+
+@media only screen and (min-width: 901px ) {
+    .home-weekly-ad {
+        height: 250px;
+    }
 }
