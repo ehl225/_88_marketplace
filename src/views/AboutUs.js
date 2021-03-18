@@ -22,7 +22,8 @@ class AboutUs extends React.Component {
                     <p className="store-info overlay-top" id="about-email">{email}</p>
                     <p className="store-info overlay-top" id="about-phone">{phone}</p>
                     </div>
-//                    <iframe className="overlay-top" id="google-map" title="google-map" width="350" height="250" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+// eslint-disable-next-line
+        <iframe className="overlay-top" id="google-map" title="google-map" src={googleMapLink} width="350" height="250" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                 </div>
             </div>
         )
