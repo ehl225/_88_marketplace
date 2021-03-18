@@ -57,8 +57,7 @@ select option:focus {
     position: relative;
     height: 100%;
     background-image: url("../images//Jefferson_Square_Photos\ -\ AJ/BL5K4556edited.jpg");
-    background-size: auto 100%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat; 
     text-align: center;
 }
@@ -84,6 +83,9 @@ select option:focus {
     text-align: center;
     max-width: 400px;
 }
+
+#contact-us-title {
+    padding-top: 10px;
 
 .ways-to-contact {
     text-align: justify;
