@@ -1,6 +1,3 @@
-#contact-form-container {
-    width: 100%;
-}
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -23,8 +20,6 @@
 .contact-reason {
     font-size: 1em !important;
     max-width: 100vw !important;
-    margin: 0;
-    padding: 0;
 }
 
 select option:focus {
@@ -40,7 +35,6 @@ select option:focus {
     font-family: 'Roboto', sans-serif;
 }
 
-
 #contact-form-button {
     max-width: 120px;
     background: #3d9e56;
@@ -48,11 +42,13 @@ select option:focus {
     color: #ffffff;
     margin: 20px 5px auto 5px;
 }
+
 #reason-placeholder {
     color: #e6e6e6;
     font-size: 1.1em;
     min-height: 30px;
 }
+
 #contact-us-container {
     position: relative;
     height: 100%;

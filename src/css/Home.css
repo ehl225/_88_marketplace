@@ -3,7 +3,6 @@
     height: 150px;
     background: url("../images/snacks.jpg");
     background-size: cover;
-    margin: 0;
 }
 .home-weekly-ad-inner {
     text-decoration: none;
@@ -22,8 +21,6 @@
     background-color: rgba(0, 0, 0, 0.404);
 }
 .covid-procedures {
-    /* background: url("../images/MARKETING_GRAPHICS/PNG/[02] FLAG.png");
-    background-size: cover; */
     background-color: #a9a9a9;
     color: #ffffff;
     padding: 5px;
@@ -33,11 +30,4 @@
     .home-weekly-ad {
         height: 250px;
     }
-    
-    .home-weekly-ad-inner p {
-    font-size: 1.8rem;
-    text-align: justify;
-    padding-top: 220px;
-    background-color: rgba(0, 0, 0, 0.404);
-}
 }

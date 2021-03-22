@@ -47,12 +47,12 @@
     #about-us-container {
         height: 100%;
  /*     background-image: url("../images/BL5K4509edited.jpg");
-        background-size: 100% auto;
   */
+        background-size: 100% auto;
         opacity: 90%;
         display: flex;
         flex-direction: row;
-        padding-bottom: 200px;
+        padding-bottom: 100px;
     }
     .background-overlay {
         position: absolute;
@@ -88,7 +88,7 @@
         margin-left: 80px;
     } 
     
-    .about-us-info, .store-info, {
+    .about-us-info, .store-info {
         text-align: left;
         margin-left: 35px;
     }
